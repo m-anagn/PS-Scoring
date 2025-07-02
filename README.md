@@ -1,15 +1,19 @@
 # Phase separation predictive analysis
 
-Phase separation (PS) is a biophysical mechanism that drives the formation of membraneless, organelle-like condensates, that arise when specific macromolecules demix creating concentrated phases. This process relies on multivalent, weak, and reversible interactions such as cation-π, hydrophobic, and electrostatic interactions mediated by intrinsically disordered regions (IDRs). An important model describing the PS behavior of biomolecular condensates in vitro and in vivo is the known as the stickers-and-spacers. Stickers are specific motifs that mediate attractive, reversible interactions enabling the condensates' assembly, while spacers are the residues between stickers which play a crucial regulatory and structural role.
+#### What exactly is phase separation?
 
-Using predictive computational tools, you can identify motifs that aid PS on your protein of interst, annotate and visualize them. First, make sure to download the FASTA file your protein of interest from [UniProt](https://www.uniprot.org/). Alternatively, you can use FASTA files for FUS, a protein with high PS propensity, and GAI, a more structired protein. Open your terminal and create a new directory using the following command:
+Phase separation (PS) is a biophysical mechanism that drives the formation of membraneless, organelle-like condensates, that arise when specific macromolecules demix creating concentrated phases. This process relies on multivalent, weak, and reversible interactions such as cation-π, hydrophobic, electrostatic,etc. mediated by intrinsically disordered regions (IDRs), protein regions that are likely to lack a defined 3D structure. An important model describing the PS behavior of biomolecular condensates in vitro and in vivo is the known as the stickers-and-spacers. Stickers are specific motifs that mediate attractive, reversible interactions enabling the condensates' assembly, while spacers are the residues between stickers which play a crucial regulatory and structural role.
+
+#### What will I do in this workshop?
+
+Using predictive computational tools, you can identify motifs that aid PS on your protein of interst, annotate and visualize them. First, make sure to download the FASTA file of your protein of interest from [UniProt](https://www.uniprot.org/). Alternatively, you can use FASTA files for FUS, a protein with high PS propensity, and GAI, a more structired protein that are provided. Open your terminal and create a new directory using the following command:
 
 ```
 mkdir PS
 cd /path/to/PS
 ```
 
-Clone the github to your directory with this command:
+Clone this github to your directory with this command:
 
 ```
 git clone https://github.com/m-anagn/PSPA.git
@@ -17,7 +21,7 @@ git clone https://github.com/m-anagn/PSPA.git
 ```
 ## PLAAC
 
-Let's start with PLAAC! PLAAC (Prion-Like Amino Acid Composition) analyzes protein sequences to    identify candidate prion-like domains (PLDs) using a hidden Markov model (HMM) based on compositional     similarity to known prions. First, we need to move in the directory.
+Let's start with PLAAC! PLAAC (Prion-Like Amino Acid Composition) analyzes protein sequences to identify candidate prion-like domains (PLDs) using a hidden Markov model (HMM) based on compositional     similarity to known prions. First, we need to move into the directory.
 
 ```
  cd /home/s.../PS/PSPA/PL/cli
@@ -60,7 +64,7 @@ First, you need to move to the correct directory and make sure to copy your prot
 cd /home/s.../PS/PSPA/LCD-Composer
 ```
 ```
-cp /pathto/yourprotein.fasta .
+cp /path/to/yourprotein.fasta .
 ```
 
 
@@ -115,7 +119,7 @@ By integrating all these results, you can pinpoint the specific motifs responsib
 
 
 
-##### If you can this far, you are awesome! We hope this was useful and feel free to let us know if you have any questions.
+### If you can this far, you are awesome! We hope this was useful and feel free to let us know if you have any questions.
 
 
 
