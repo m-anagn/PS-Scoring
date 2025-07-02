@@ -5,14 +5,14 @@ Phase separation (PS) is a biophysical mechanism that drives the formation of me
 Using predictive computational tools, you can identify motifs that aid PS on your protein of interst, annotate and visualize them. First, make sure to download the FASTA file your protein of interest from [UniProt](https://www.uniprot.org/). Alternatively, you can use FASTA files for FUS, a protein with high PS propensity, and GAI, a more structired protein. Open your terminal and create a new directory using the following command:
 
 ```
-mkdir yourname
-cd /path/to/yourname
+mkdir PS
+cd /path/to/PS
 ```
 
 Clone the github to your directory with this command:
 
 ```
-git clone 
+git clone https://github.com/m-anagn/PS-Scoring.git
 
 ```
 ## PLAAC
@@ -20,7 +20,7 @@ git clone
 Let's start with PLAAC! PLAAC (Prion-Like Amino Acid Composition) analyzes protein sequences to    identify candidate prion-like domains (PLDs) using a hidden Markov model (HMM) based on compositional     similarity to known prions. First, we need to move in the directory.
 
 ```
-cd /data1/projects/pi-vriesendorpb/shared/PS/plaac/cli
+cd /home/s../PS/PS-Scoring/PL/cli
 ```
 
 Make sure to upload your FASTA file in this directory. You can check whether it is uploaded by listing the contents.
@@ -57,7 +57,7 @@ LCD-Composer is a customizable computational tool for identifying low-complexity
 First, you need to move to the correct directory and make sure to copy your protein FASTA file in this directory. The FUS and GAI files are already present.
 
 ```
-cd /data1/projects/pi-vriesendorpb/shared/LCD-Composer
+ cd /home/s.../PS/PS-Scoring/LCD-Composer
 ```
 ```
 cp /pathto/yourprotein.fasta .
@@ -90,7 +90,7 @@ Utilizing this PS predictive algorithm, individual amino acids are scored based 
 Once again, you need to change to the appropriate directory and make sure that your desired FASTA file is present.
  
 ```
-cd /data1/projects/pi-vriesendorpb/shared/PS/SourceCodeS2/
+
 ```
 
 Next, run the following command.
