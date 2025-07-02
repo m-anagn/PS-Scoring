@@ -1,0 +1,43 @@
+# Couldn't open dummy
+############################ Description of output columns ############################
+## SEQid: sequence name from fasta file
+## MW: Michelitsh-Weissman [PNAS 2000] score --- maximum number of N + Q in window of at most 80 AA
+## MWstart: index of start position of window with max MW score.
+## MWend: index of end position of window with max MW score
+## MWlen: length of window used for MW score [smaller of 80 and PROTlen].
+## LLR: max sum of PLAAC log-likelihood ratios (base 4) in window of size c [NaN if PROTlen < c]
+## LLRstart: index of start position of window with max LLR score [-1 if PROTlen < c]
+## LLRend: index of end position of window with max LLR score [-1 if PROTlen < c]
+## LLRlen: length of window used for LLR score [should be c]
+## NLLR: normalized LLR score, i.e. LLR/LLRlen [NaN if PROTlen < c]
+## VITmaxrun: maximum length of consecutive PrD state in Viterbi parse
+## COREscore: max sum of PLAAC LLRs in window of size c contained entirely within Viterbi parse [NaN if VITmaxrun < c]
+## COREstart: index of start position of window with max COREscore [-1 if VITmaxrun < c]
+## COREend: index of end position of window with max COREscore [-2 if VITmaxrun < c]
+## CORElen: length of window used for CORElen [should be either c or 0]
+## PRDscore: sum of PLAAC LLRs in full region of Viterbi parse containing CORE region, if any [NaN otherwise].
+## PRDstart: index of start position of window with PRDscore [-1 if VITmaxrun < c]
+## PRDend: index of end position of window with PRDscore [-2 if VITmaxrun < c]
+## PRDlen: length of window used for PRDscore
+## PROTlen: number of AAs in protein, not including terminal stop codon if any.
+## HMMall: log-likelihood ratio for sequence under two-state HMM vs. one-state background HMM
+## HMMvit: log-likelihood ratio for sequence under Viterbi parse of two-state HMM vs. one-state background HMM
+## COREaa: AA sequence at which COREscore is attained [- if VITmaxrun < c]
+## STARTaa: first 15 AA of PRDaa [- if VITmaxrun < c]
+## ENDaa: last 15 AA of PRDaa [- if VITmaxrun < c]
+## PRDaa: AA sequence at which PRDscore is attained [- if VITmaxrun < c]
+## FInumaa: number of AAs predicted to be disordered by FoldIndex [Prilusky et al, Bioinformatics, 2005] (exludes runs of under 5 AA)
+## FImeanhydro: hydropathy score <H> for entire protein [Uversky et al, Proteins, 2000]
+## FImeancharge: mean charge <R> for entire protein [Uversky et al, Proteins, 2000]
+## FImeancombo: disorder score for entire protein: 2.785<H> - |<R>| - 1.151 [Uversky et al, Proteins, 2000]
+## FImaxrun: length of longest run of predicted disorder by FoldIndex
+## PAPAcombo: signed distance to PAPA decision surface [as in King et al Brain Res 2012]
+## PAPAprop: maximal score of PAPA prion propensities (averges of averages) in region with negative FI score [Toombs et al MBC 2012]
+## PAPAfi: FI score (averages of averages) at PAPAcen
+## PAPAllr: PLAAC LLR score (average) at PAPAcen
+## PAPAllr2: PLAAC LLR score (average of averages) at PAPAcen
+## PAPAcen: index of center of window at which PAPAprop is obtained
+## PAPAaa: AA sequence of width W centered at PAPAcen
+#######################################################################################
+SEQid	MW	MWstart	MWend	MWlen	LLR	LLRstart	LLRend	LLRlen	NLLR	VITmaxrun	COREscore	COREstart	COREend	CORElen	PRDscore	PRDstart	PRDend	PRDlen	PROTlen	HMMall	HMMvit	COREaa	STARTaa	ENDaa	PRDaa	FInumaa	FImeanhydro	FImeancharge	FImeancombo	FImaxrun	PAPAcombo	PAPAprop	PAPAfi	PAPAllr	PAPAllr2	PAPAcen	PAPAaa
+# Couldn't open dummy
