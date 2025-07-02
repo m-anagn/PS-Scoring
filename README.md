@@ -1,4 +1,4 @@
-# PS-Scoring
+# Phase separation predictive analysis
 
 Phase separation (PS) is a biophysical mechanism that drives the formation of membraneless, organelle-like condensates, that arise when specific macromolecules demix creating concentrated phases. This process relies on multivalent, weak, and reversible interactions such as cation-π, hydrophobic, and electrostatic interactions mediated by intrinsically disordered regions (IDRs). An important model describing the PS behavior of biomolecular condensates in vitro and in vivo is the known as the stickers-and-spacers. Stickers are specific motifs that mediate attractive, reversible interactions enabling the condensates' assembly, while spacers are the residues between stickers which play a crucial regulatory and structural role.
 
