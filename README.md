@@ -9,7 +9,7 @@ Using predictive computational tools, you can identify motifs that aid PS on you
 
 ## PLAAC
 
-Let's start with PLAAC! PLAAC (Prion-Like Amino Acid Composition) analyzes protein sequences to    identify candidate prion-like domains using a hidden Markov model (HMM) based on compositional     similarity to known prions. First, we need to move in the directory.
+Let's start with PLAAC! PLAAC (Prion-Like Amino Acid Composition) analyzes protein sequences to    identify candidate prion-like domains (PLDs) using a hidden Markov model (HMM) based on compositional     similarity to known prions. First, we need to move in the directory.
 
 ```cd /data1/projects/pi-vriesendorpb/shared/PS/plaac/cli```
 
