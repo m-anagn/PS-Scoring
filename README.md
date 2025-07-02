@@ -83,7 +83,7 @@ cat output.tsv
 ```
 
 
-## Pi-Pi contacts
+## PS scoring
 
 Utilizing this PS predictive algorithm, individual amino acids are scored based on π interaction frequency. The scoring plots provide a residue-level visualization of their propensity to undergo PS, based on π-interaction frequency. High-scoring residues, which are typically aromatic or positively charged, are enriched in intrinsically disordered regions that can facilitate PS.
 
