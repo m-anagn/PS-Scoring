@@ -2,7 +2,7 @@
 
 #### What exactly is phase separation?
 
-Phase separation (PS) is a biophysical mechanism that drives the formation of membraneless, organelle-like condensates, that arise when specific macromolecules demix creating concentrated phases. This process relies on multivalent, weak, and reversible interactions such as cation-π, hydrophobic, electrostatic,etc. mediated by intrinsically disordered regions (IDRs), protein regions that are likely to lack a defined 3D structure. An important model describing the PS behavior of biomolecular condensates in vitro and in vivo is the known as the stickers-and-spacers. Stickers are specific motifs that mediate attractive, reversible interactions enabling the condensates' assembly, while spacers are the residues between stickers which play a crucial regulatory and structural role.
+Phase separation (PS) is a biophysical mechanism that drives the formation of membraneless, organelle-like condensates, that arise when specific macromolecules demix creating concentrated phases. This process relies on multivalent, weak, and reversible interactions such as cation-π, hydrophobic, electrostatic,etc. mediated by intrinsically disordered regions (IDRs), protein regions that are likely to lack a defined 3D structure. An important model describing the PS behaviour of biomolecular condensates in vitro and in vivo is the known as the stickers-and-spacers. Stickers are specific motifs that mediate attractive, reversible interactions enabling the condensates' assembly, while spacers are the residues between stickers which play a crucial regulatory and structural role.
 
 #### What will I do in this workshop?
 
@@ -101,11 +101,11 @@ cd /home/s.../PS/PSPA/PScore
 Next, run the following command.
 
 ```
-python elife_phase_separation_predictor.py fasta/input.fasta -residue_scores -output output.txt -overwrite
+python elife_phase_separation_predictor.py input.fasta -residue_scores -output output.txt -overwrite
 ```
 
 ```
-python plot.py output.txt "PScore prediction yourprotein" -y_lim -10 15--y_ticks 5 --x_ticks 20
+python plot.py output.txt "PScore prediction yourprotein" -y_lim -10 15 --y_ticks 5 --x_ticks 20
 ```
 
 Your results will be stored in the "PScore prediction yourprotein" and you can view and download them.
