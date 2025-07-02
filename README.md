@@ -46,7 +46,7 @@ First, you need to move to the correct directory and make sure to copy your prot
 ```cp /pathto/yourprotein.fasta .```
 
 
-Afterwards, you can run this command in your terminal. Make sure to specify the residue or group of residues of interest after ```a``` and the threshold composition after ```-c``` (0-100). LCDs are usually enriched with G,P,D,E.
+Afterwards, you can run this command in your terminal. Make sure to specify the residue or group of residues of interest after ```a``` and the threshold composition after ```-c``` (0-100). It is recommended to scan for G,P,D,E residues but you have the option to check for any specified residues that might promote PS in your protein.
 
 ``` python LCD-Composer.py input.fasta output -a -c ```
 
