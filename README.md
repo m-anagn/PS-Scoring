@@ -114,13 +114,16 @@ By integrating all these results, you can pinpoint the specific motifs responsib
 
 
 
+
 ##### If you can this far, you are awesome! We hope this was useful and feel free to let us know if you have any questions.
 
 
 
 
 
-# References
+
+
+### References
 
 1.  Alberti, S.; Halfmann, R.; King, O.; Kapila, A.; Lindquist, S. A Systematic Survey Identifies Prions and Illuminates Sequence Features of Prionogenic Proteins. Cell 2009, 137, 146–158, doi:10.1016/j.cell.2009.02.044.
 2.  Ginell, G.M.; Holehouse, A.S. An Introduction to the Stickers-and-Spacers Framework as Applied to Biomolecular Condensates. In Phase-Separated Biomolecular Condensates: Methods and Protocols; Zhou, H.-X., Spille, J.-H., Banerjee, P.R., Eds.; Springer US: New York, NY, 2023; pp. 95–116 ISBN 978-1-0716-2663-4.
