@@ -119,7 +119,10 @@ By integrating all these results, you can pinpoint the specific motifs responsib
 
 
 
-### If you can this far, you are awesome! We hope this was useful and feel free to let us know if you have any questions.
+### If you can this far, you are awesome! Hopefully, you found these tools interesting and useful. Please make sure to properly acknowledge this work, should you utilize it for your own project. 
+
+
+For any questions or clarifications, feel free to contact us (mariaanagn314@gmail.com). 
 
 
 
